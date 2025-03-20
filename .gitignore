@@ -1,3 +1,10 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
 # Logs
 logs
 *.log
@@ -7,18 +14,37 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Environment variables
+.env
 
-# Editor directories and files
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Editor directories and files
+.idea
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.temp
+
+# Vite specific files
+dist/
+*.cache
+
+# Ignore lock files (optional)
+# package-lock.json
+# yarn.lock
